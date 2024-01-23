@@ -1,5 +1,5 @@
 import './App.css';
-import { Header } from './components/Header';
+import { Header } from './components/Header/Header';
 import { Main } from './components/Main';
 import { Footer } from './components/Footer';
 
@@ -12,5 +12,6 @@ function App() {
     </>
   );
 }
+// styled-components are a thing
 
 export default App;

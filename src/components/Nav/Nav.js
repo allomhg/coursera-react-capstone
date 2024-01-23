@@ -1,4 +1,4 @@
-
+import "./Nav.css"
 const navLinks = ["Home", "About", "Menu", "Reservations", "Order Online", "Login"];
 
 export const Nav = () => {
@@ -6,7 +6,7 @@ export const Nav = () => {
         <nav>
             <ul>
                 {navLinks.map((name) => (
-                    <li class="list-item" key={name} id={name} title={name}>
+                    <li className="list-item" key={name} id={name} title={name}>
                         <a href="#">{name}</a>
                     </li>
                 ))}

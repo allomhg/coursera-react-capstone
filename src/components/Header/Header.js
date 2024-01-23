@@ -1,10 +1,9 @@
-// import './src/css/Header.css';
-import { Nav } from "./Nav";
-
+import './Header.css';
+import { Nav } from "../Nav/Nav";
 
 export const Header = () => {
     return (
-        <header class="Header">
+        <header className="Header">
             <img src="/Logo.svg" alt="Little Lemon Logo"></img>
             <Nav />
         </header>
