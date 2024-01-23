@@ -1,10 +1,8 @@
-$font-stack: "Markarzi Text", "KARLA REGULAR";
+$font-stack: "Markarzi Text", "Karla";
 $main-font: "Markarzi Text";
-$secondary-font: "KARLA REGULAR";
+$secondary-font: "Karla";
 $primary-colour: #495e57;
 $secondary-colour: #f4ce14;
-
-
 
 *,
 *::before,
@@ -16,10 +14,11 @@ $secondary-colour: #f4ce14;
 }
 
 body {
-  font: $main-font;
+  font-family: $secondary-font;
   min-height: 100vh;
   width: 100vw;
 }
+
 
 #root {
   display: grid;
@@ -29,7 +28,6 @@ body {
 }
 
 .Header {
-  /* width: 100%; */
   grid-column: span 12;
 }
 

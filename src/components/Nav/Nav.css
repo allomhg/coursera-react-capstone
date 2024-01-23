@@ -1,7 +1,12 @@
-ul {
-  list-style: none;
+nav {
+  width: 100%;
+  margin-left: 1rem;
 }
 
-li {
-  display: inline-block;
+ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=Nav.css.map */

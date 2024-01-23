@@ -1,1 +1,5 @@
-/*# sourceMappingURL=Header.css.map */
+.Header {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}/*# sourceMappingURL=Header.css.map */
