@@ -1,5 +1,32 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+body {
+  /* text-align: center; */
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 20px;
+  margin: 0 40px;
+}
+
+.Header {
+  /* width: 100%; */
+  grid-column: span 12;
+}
+
+.list-item {
+  background-color: red;
 }
 
 .App-logo {

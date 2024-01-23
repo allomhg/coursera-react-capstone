@@ -6,7 +6,7 @@ export const Nav = () => {
         <nav>
             <ul>
                 {navLinks.map((name) => (
-                    <li key={name} id={name} title={name}>
+                    <li class="list-item" key={name} id={name} title={name}>
                         <a href="#">{name}</a>
                     </li>
                 ))}
