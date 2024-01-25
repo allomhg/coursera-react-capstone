@@ -1,6 +1,5 @@
 nav {
   width: 100%;
-  margin-left: 1rem;
 }
 
 ul {
@@ -9,4 +8,5 @@ ul {
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: red;
 }/*# sourceMappingURL=Nav.css.map */

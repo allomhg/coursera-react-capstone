@@ -1,13 +1,22 @@
 import "./Nav.css"
-const navLinks = ["Home", "About", "Menu", "Reservations", "Order Online", "Login"];
+import { Link } from "react-router-dom";
+const navLinks = [
+    ["Home", "/"],
+    ["About", "/about"],
+    ["Menu", "/menu"],
+    ["Reservations", "/reservations"],
+    ["Order Online", "/order-online"],
+    ["Login", "/login"]
+];
 
 export const Nav = () => {
     return (
         <nav>
             <ul>
-                {navLinks.map((name) => (
-                    <li className="list-item" key={name} id={name} title={name}>
-                        <a href="#">{name}</a>
+                {navLinks.map((link) => (
+                    <li classlink="list-item" key={link} id={link} title={link}>
+                        {/* <a href="#">{link}</a> */}
+                        <Link to="/">{link[0]}</Link>
                     </li>
                 ))}
             </ul>
