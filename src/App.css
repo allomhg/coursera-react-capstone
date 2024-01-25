@@ -13,6 +13,10 @@ body {
   max-width: 80vw;
 }
 
+#hero-image {
+  max-width: 300px;
+}
+
 #root {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
