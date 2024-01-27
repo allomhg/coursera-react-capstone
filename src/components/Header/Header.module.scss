@@ -1,7 +1,6 @@
 .Header {
+    grid-column: span 12;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-top: 1rem;
-    // flex-wrap: wrap;
 }

@@ -1,0 +1,6 @@
+.Hero {
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: row;
+  max-width: 80vw;
+}/*# sourceMappingURL=Hero.module.css.map */

@@ -3,9 +3,8 @@ import { Nav } from "../Nav/Nav";
 
 export const Header = () => {
     return (
-        <header className="Header">
+        <header className={styles.Header}>
             <img src="/Logo.svg" alt="Little Lemon Logo"></img>
-            {/* <p className={styles.redText}>red text</p> */}
             <Nav />
         </header>
     );
