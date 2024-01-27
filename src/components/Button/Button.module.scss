@@ -1,0 +1,18 @@
+$secondary-font: "Karla";
+$primary-colour: #495e57;
+$secondary-colour: #f4ce14;
+
+.Button {
+    background-color: $secondary-colour;
+    font-family: $secondary-font;
+    font-weight: 600;
+    border: none;
+    color: black;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+}

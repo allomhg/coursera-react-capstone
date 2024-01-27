@@ -1,6 +1,13 @@
 .Hero {
+  grid-column: span 12;
   background-color: lightskyblue;
-  display: flex;
   flex-direction: row;
-  max-width: 80vw;
+  max-height: 520px;
+}
+
+.HeroImg {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
 }/*# sourceMappingURL=Hero.module.css.map */
