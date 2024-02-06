@@ -1,5 +1,6 @@
 .MenuCard {
-  background-color: aqua;
+  background-color: lightgrey;
+  grid-column: span 12;
 }
 
 .MenuImg {

@@ -8,7 +8,7 @@ export const Specials = () => {
                 <h2>This weeks specials!</h2>
                 <Button txt="Online Menu" />
             </div>
-            <div>
+            <div className="CardContainer">
                 <MenuCard />
                 <MenuCard />
                 <MenuCard />
