@@ -1,14 +1,48 @@
-.Hero {
+$font-stack: "Markarzi Text", "Karla";
+$main-font: "Markarzi Text";
+$secondary-font: "Karla";
+$primary-colour: #495e57;
+$secondary-colour: #f4ce14;
+
+.hero {
     grid-column: span 12;
-    background-color: lightskyblue;
-    // display: flex;
+    display: flex;
     flex-direction: row;
     max-height: 520px;
+    margin-top: 1rem;
+    margin: 1rem 0;
+    border-radius: 16px;
+    color: white;
 }
 
-.HeroImg {
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
-    display: block;
+.backDiv {
+    position: absolute;
+    z-index: -1;
+    background-color: $primary-colour;
+    right: 0vw;
+    height: 50%;
+    width: 100vw;
 }
+
+.heroHeading {
+    color: $secondary-colour
+}
+
+.heroDiv {
+    padding: 1rem;
+    margin-right: 15rem;
+    width: 500px;
+}
+
+.heroText {
+    margin: 1rem 0;
+}
+
+.heroImg {
+    margin-top: 1rem;
+    width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
