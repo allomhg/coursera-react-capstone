@@ -15,7 +15,7 @@ $secondary-colour: #f4ce14;
     color: white;
 }
 
-.backDiv {
+.hero-bg {
     position: absolute;
     z-index: -1;
     background-color: $primary-colour;
@@ -24,21 +24,21 @@ $secondary-colour: #f4ce14;
     width: 100vw;
 }
 
-.heroHeading {
+.hero-heading {
     color: $secondary-colour
 }
 
-.heroDiv {
+.hero-div {
     padding: 1rem;
     margin-right: 15rem;
     width: 500px;
 }
 
-.heroText {
+.hero-text {
     margin: 1rem 0;
 }
 
-.heroImg {
+.hero-img {
     margin-top: 1rem;
     width: 70%;
     height: auto;
